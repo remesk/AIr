@@ -73,6 +73,7 @@ class NeuralNetwork:
         dB = []
 
         M = len(Y)
+        print("M is ", M)
 
         for l in self.layers:
             dW.append(np.zeros(l.weights.shape))
